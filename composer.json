@@ -1,0 +1,20 @@
+{
+    "name": "lucasgonzalez/reacting",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Luke Gonzalez",
+            "email": "lucasmgonzalez1992@gmail.com"
+        }
+    ],
+    "require": {
+        "react/event-loop": "^0.4.3",
+        "react/http": "^0.7.4",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "autoload":{
+        "psr-4": {
+            "Reactive\\": "reactive/"
+        }
+    }
+}
