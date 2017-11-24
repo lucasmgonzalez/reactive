@@ -26,7 +26,7 @@ class Server
 
     protected function __construct()
     {
-        $this->port = env('SOCKET_PORT', 8080);
+        $this->port = env('PORT', 8080);
         
         // Creating EventLoop
         $this->loop = \React\EventLoop\Factory::create();
